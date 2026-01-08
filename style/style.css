@@ -48,12 +48,21 @@ img {
     height: 50vh;
     border-radius: 10px;
     box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.071);
+    animation-name: move;
+    animation-duration: 1s;
+    animation-timing-function: infinite;
 }
 button {
     background-color: white;
     border-radius: 10px;
     border: none;
     padding: 10px;
+}
+button:hover {
+    background-color: gainsboro;
+}
+button:active {
+    background-color: gainsboro;
 }
 a {  
   text-decoration: none;
