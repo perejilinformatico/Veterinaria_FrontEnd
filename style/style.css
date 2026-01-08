@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: whitesmoke;
+}
+* {
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+    font-family: "Google Sans", sans-serif;
+}
+section {
+    padding: 10rem;
+}
+.header_principal { 
+    width: calc(50% + 50%);
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.16);
+    position: fixed;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120vh;
+}
+.left_div > * {
+    margin: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Principal_Section {
+    background-color: rgb(112, 112, 235);
+}
+.div_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20vh;
+}
+img {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.071);
+}
+button {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+a {  
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+    transform: skew(10deg);
+} 
+a:active {
+    transform: skew(10deg);
+}
