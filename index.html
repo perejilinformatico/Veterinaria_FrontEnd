@@ -24,7 +24,7 @@
       <div class="div_content">
         <div class="left_div">
          <h1 class="title_h1">Cuidado <br> Veterinario <br> de Excelencia</h1>
-         <p>Más de 15 años brindando atención médica especializada para tus mascotas.Tecnología de vanguardia y un equipo humano comprometido con su bienestar.</p>
+         <p>Más de 15 años brindando atención médica especializada para tus mascotas.   Tecnología de vanguardia y un equipo humano comprometido con su bienestar.</p>
          <div class="button_conteiner">
             <button>Agendar Cita</button>
             <button>Ver Servicios</button>
@@ -37,7 +37,7 @@
     </section>
     <section class="Servicios_Section" id="servicios">
         <h1 class="title_h1">Servicios Veterinarios Especializados</h1>
-        <p>Ofrecemos una gama completa de servicios médicos para el cuidado integral de tu <br> mascota</p>
+        <p class="p_text">Ofrecemos una gama completa de servicios médicos para el cuidado integral de tu <br> mascota</p>
         <div class="conteiner_card">
           <div class="card">
             <h2>Consulta General</h1>
@@ -47,7 +47,7 @@
                 <li>Diagnóstico inicial</li>
                 <li>Plan de tratamiento</li>
             </ul>  
-            <h2>$35</h2>
+            <h2 class="press_text">$35</h2>
         </div>
           <div class="card">
             <h2>Vacunación Completa</h2>
@@ -57,7 +57,7 @@
                <li>Certificado de vacunación</li>
                <li>Seguimiento</li>
             </ul>
-            <h2>$45</h2>
+            <h2 class="press_text">$45</h2>
           </div>
           <div class="card">
             <h2>Cirugía Especializada</h2>
@@ -67,21 +67,24 @@
                 <li>Anestesia segura</li>
                 <li>Recuperación monitorizada</li>
             </ul>
-            <h2>$280</h2>
+            <h2 class="press_text">$280</h2>
           </div> 
         </div>
     </section>
-    <section class="Citas_Section" id="citas">
+    <section class="Citas_Section">
+        <div class="form_s" id="citas">
         <h1 class="title_h1">Agenda una cita</h1>
-        <form>
-            <label for="gmail">Gmail</label>
+        <p>Completa el formulario y nos pondremos en contacto contigo</p>
+        <form action="">
+             <label for="gmail">Gmail</label>
              <input type="gmail" placeholder="ejemplo@gmail.com" required>
-            <label for="Nombre">Nombre</label>
+             <label for="Nombre">Nombre</label>
              <input type="text" placeholder="Tu Nombre" required>
-            <label for="Fecha">Fecha</label>
+             <label for="Fecha">Fecha</label>
              <input type="date" required>
-            <input type="submit" value="Enviar">
+             <button class="button_enviar">Enviar</button>
         </form>
+        </div>
     </section>
     </main>
     <footer>
@@ -95,10 +98,10 @@
               <prips>Creado por: Santiago cussit :)</prips>   
           </div>
         </div>
-        <hr>
         <div class="real_footer">
            <p>@2026 VetCare. Todos los derechos reservados a santiago cussit</p>
         </div>
     </footer>
+    <script src="src/script.js"></script>
 </body>
 </html>

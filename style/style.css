@@ -48,9 +48,6 @@ img {
     height: 50vh;
     border-radius: 10px;
     box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.071);
-    animation-name: move;
-    animation-duration: 1s;
-    animation-timing-function: infinite;
 }
 button {
     background-color: white;
@@ -60,10 +57,11 @@ button {
 }
 button:hover {
     background-color: gainsboro;
+    cursor: pointer;
 }
 button:active {
     background-color: gainsboro;
-}
+}   
 a {  
   text-decoration: none;
   color: black;
@@ -74,3 +72,73 @@ a:hover {
 a:active {
     transform: skew(10deg);
 }
+.Citas_Section {
+   text-align: center;
+}
+.form_s {
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.071);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 80vh;
+    width: 70vh;
+    background-color: rgba(198, 197, 197, 0.148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.Citas_Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form > input{
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+}
+footer {
+    height: 30vh;
+    background-color: rgb(11, 0, 37);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+.title_h1 {
+    margin-bottom: 10px;
+}
+.conteiner_card {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 30px;
+}
+.Servicios_Section {
+    text-align: center;
+}
+.press_text {
+    color: green;
+}
+footer > * {
+    color: white;
+}   
